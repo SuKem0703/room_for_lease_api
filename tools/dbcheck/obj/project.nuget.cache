@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hS/GjEhz4no=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\BinhNguyen\\Downloads\\room_for_lease_api\\tools\\dbcheck\\dbcheck.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BinhNguyen\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\BinhNguyen\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\BinhNguyen\\.nuget\\packages\\npgsql\\9.0.4\\npgsql.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
