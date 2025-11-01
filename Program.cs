@@ -70,9 +70,15 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("Default", policy =>
     {
-        policy.WithOrigins(allowedOrigins)
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+        policy
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials()
+            .SetIsOriginAllowed(origin =>
+                origin.StartsWith("http://localhost") || 
+                origin.StartsWith("https://localhost") ||
+                origin.StartsWith("https://room-for-lease-fe.onrender.com") // Domain frontend thật
+            );
     });
 });
 
